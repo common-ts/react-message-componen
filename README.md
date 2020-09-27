@@ -1,1 +1,1 @@
-# react-message-componen
+# react-message-component

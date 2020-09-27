@@ -1,0 +1,29 @@
+{
+  "name": "react-message-component",
+  "version": "0.0.1",
+  "description": "message-component",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "@types/react-router-dom": "^4.3.0",
+    "react": "^16.8.0",
+    "tslint": "5.10.0",
+    "typescript": "^3.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/common-ts/react-message-component"
+  },
+  "keywords": [
+    "react-message-component",
+    "message-component"
+  ]
+}
